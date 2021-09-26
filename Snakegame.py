@@ -10,7 +10,7 @@ def snake_Game():
                 return False
             elif you == 'g':
                 return True
-            elif comp == 'w':
+        elif comp == 'w':
             if you == 'g':
                 return False
             elif you == 's':
@@ -40,7 +40,7 @@ def snake_Game():
         print("Computer chose", comp)
         if a == None:
             print("Tie")
-            tir += 1
+            tie += 1
         elif a:
             print("You win")
             win += 1
