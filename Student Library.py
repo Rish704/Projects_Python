@@ -1,4 +1,3 @@
-# add check for returning
 class library:
     def __init__(self, booklist):
         self.books = booklist
